@@ -1,0 +1,13 @@
+body {
+  background-color: #5d5d5d;
+}
+
+li {
+  border-radius: 10%;
+  border: 1px solid #d6d6d6;
+  background-color: #fffcfc;
+  list-style: none;
+  padding: 3px;
+  margin: 0;
+  display: inline-block;
+}

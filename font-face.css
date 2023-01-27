@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Urbanist SemiBold';
+  src: url('fonts/Urbanist-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Urbanist Black';
+  src: url('fonts/Urbanist-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Urbanist Regular';
+  src: url('fonts/Urbanist-Regular.ttf') format('truetype');
+}
+
+/*
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/opensans-regular.woff2') format('woff2'),
+    url('fonts/opensans-regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+*/
+
+body {
+  background-color: #fff;
+}
+
+h2 {
+  font-family: 'Urbanist Black';
+}
+
+li {
+  font-family: 'Urbanist SemiBold';
+}
+
+p {
+  font-family: 'Urbanist Regular';
+}
+
+.degra-vertical {
+  background: linear-gradient(0deg, black, white);
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #000;
+}
